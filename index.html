@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+
+  <title>ROMANI ITE DOMUM!!! VUE VERSION</title>
+
+  <!-- Meta Data -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:600|Roboto+Slab|Dela+Gothic+One|Staatliches:100,300,400,700" type="text/css" crossorigin>
+  <!-- add icon link -->
+  <link rel="icon" href="/images/logo.png"  type="image/x-icon">
+  <script type="text/javascript">
+
+    var images = new Array()
+    function preload() {
+      for (i = 0; i < preload.arguments.length; i++) {
+        images[i] = new Image()
+        images[i].src = preload.arguments[i]
+      }
+    }
+    preload(
+      "./images/L1@2x.png",
+      "./images/L2@2x.png",
+      "./images/L3@2x.png"
+    )
+
+  </script>
+
+  <script type="module" crossorigin src="/assets/index-1e27d26b.js"></script>
+  <link rel="stylesheet" href="/assets/index-d8ab07fc.css">
+</head>
+<body>
+
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
