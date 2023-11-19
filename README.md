@@ -1,4 +1,5 @@
 # lprid-vue
+Page that can be used as a Landing page, 404, Under Construction or similar. Using jQuery and jQuery.parallax together with Vue... 
 
 This template should help get you started developing with Vue 3 in Vite.
 
